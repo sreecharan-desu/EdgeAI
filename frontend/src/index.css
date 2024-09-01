@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Cabin Condensed", sans-serif;
+}
+
+::-webkit-scrollbar {
+  background-color: white;
+}
+
+.backed {
+  font-family: "Cabin condensed", sans-serif;
+  font-weight: 400;
+}
+
+@keyframes movedown {
+  from {
+    opacity: 0;
+    margin-top: -100px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes moveleft {
+  from {
+    margin-right: -200px;
+    opacity: 0;
+  }
+  to {
+    margin-right: -10px;
+    opacity: 1;
+  }
+}
+
+@keyframes moveright {
+  from {
+    margin-left: -200px;
+    opacity: 0;
+  }
+  to {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.ai {
+  animation: movedown 1s ease 0s 1 normal;
+}
+.enterprise {
+  animation: moveright 2s ease 0s 1 normal;
+}
+
+.fadeIn {
+  animation: fadeIn 4s ease 0s 1 normal;
+}
+
+/* 
+
+AI to build enterprise software
+
+Enterprise software has a reputation among smart programmers as being boring to work on. You have to do sales and because each potential customer wants something slightly different, you end up writing bloated software to try and please them all.
+
+But what if AI could change how enterprise software gets built and sold? The core of what every customer wants is the same — they just want it customized around the edges.
+
+AI is good at writing code — especially when you give it an existing codebase to learn from. So what if instead of long enterprise sales cycles you just give customers a simple starter product and have them tell your AI how they want it customized? In the future, every enterprise could have their own custom ERP, CRM or HRIS that is continually updating itself as the company itself is changing.  
+
+A product based on this premise would be highly disruptive to large incumbents, because now they can’t win by just copying you and adding another feature to their bloated software. Now they would have to completely change their whole conceptual approach to building software.
+
+Maybe the AI will get so good at this that it can think up new types of enterprise software that don’t even exist yet. Building this AI would be an interesting technical challenge and if you’re excited about building AI that can code, enterprise software is the most profitable software to build.
+
+
+
+
+*/
+
+/* 
+
+AICraft - Crafting enterprise software with AI precision.
+EdgeAI Solutions - Tailoring enterprise software to the cutting edge.
+CustomAI Suite - Personalized enterprise solutions, AI-powered.
+IntelliCorp AI - Intelligent enterprise software for evolving businesses.
+AptifyAI - Aptly customized enterprise software through AI.
+VersaAI Systems - Versatile AI for adaptive enterprise solutions.
+NexGenAI - Next-generation enterprise software, continuously evolving.
+SmartLogic AI - Logical enterprise solutions with AI customization.
+AdaptiveAI Solutions - Enterprise software that adapts as you grow.
+InnoAIvate - Innovating enterprise software with AI intelligence.
+AptifyAI - Combining "Aptify" (to make suitable) with AI, indicating a solution that adapts to each client's unique needs.
+
+NeuraCore - Suggests a focus on AI ("Neura" like neural) at the core of enterprise solutions.
+
+FlexCraft AI - Emphasizes flexibility and craftsmanship in creating custom software.
+
+TailorStack - A play on the idea of tailoring code stacks to individual needs with AI.
+
+InnovaCore - Blends "innovation" with "core," signifying a new core approach to enterprise software.
+
+ModulizeAI - Highlights modular, AI-driven customization.
+
+CodeMorph - Suggests the idea of code that morphs to fit each customer’s needs.
+
+DynamiSoft - Indicates dynamic, constantly evolving software solutions.
+
+AdaptifyAI - Suggests software that adapts itself through AI.
+
+CustomIQ - Implies smart, AI-driven customization of enterprise software.
+
+VersaSoft AI - Emphasizes versatility in software solutions with AI.
+
+TailorLogic - Combines the concept of tailored solutions with AI-driven logic.
+
+MorpheusAI - A nod to transformation and change, with AI at the helm.
+
+AIForge - Evokes the idea of forging customized software solutions using AI.
+
+CustoMinds - Highlights the intelligent customization capabilities of the AI.
+
+AICraft - Perfectly captures the idea of precision and craftsmanship in AI-powered software development.
+
+EdgeAI Solutions - Conveys the idea of being at the forefront of innovation, delivering cutting-edge enterprise software.
+
+CustomAI Suite - Emphasizes the comprehensive and personalized nature of the software offerings.
+
+IntelliCorp AI - Suggests a corporate focus on intelligent, evolving software solutions.
+
+VersaAI Systems - Highlights versatility and adaptability, crucial for enterprise environments.
+
+NexGenAI - Implies a forward-thinking, next-generation approach to enterprise software.
+
+SmartLogic AI - Balances the idea of intelligent decision-making and logical structure in software.
+
+AdaptiveAI Solutions - Suggests a strong focus on software that grows and evolves with the business.
+
+InnoAIvate - Cleverly combines innovation with AI, indicating a fresh approach to enterprise software.
+
+TailorStack - Stands out as it directly refers to the customization of code stacks, which is central to enterprise software.
+
+ModulizeAI - Stresses modularity, a key aspect of customizable and scalable software solutions.
+
+CodeMorph - Great name that reflects the dynamic nature of the software, morphing to fit specific needs.
+
+DynamiSoft - Emphasizes dynamism, highlighting the continuously evolving nature of the software.
+
+CustomIQ - Implies smart, data-driven customization, appealing to businesses that value intelligent solutions.
+
+AIForge - Evokes the image of forging something unique and strong with the power of AI.
+
+*/

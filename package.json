@@ -1,0 +1,19 @@
+{
+  "name": "Companyname",
+  "version": "1.0.0",
+  "description": "An AI Enterprise Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Companyname"
+  },
+  "keywords": [
+    "AI",
+    "EnterPrise"
+  ],
+  "author": "SreeCharan Desu",
+  "license": "MIT"
+}
