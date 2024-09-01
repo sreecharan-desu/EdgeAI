@@ -10,9 +10,7 @@ function App() {
       <Suspense
         fallback={
           <div className="flex place-content-center items-center justify-center h-screen">
-            <div className="w-1/2">
-              <InfinityLoader />
-            </div>
+            <InfinityLoader />
           </div>
         }>
         <Layout>
