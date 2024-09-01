@@ -8,10 +8,10 @@ export default function About() {
           </h1>
         </div>
         <div className="flex-col justify-center lg:m-20">
-          <div className="flex-col justify-center place-content-center m-10">
+          <div className="flex justify-center place-content-center m-10">
             <img
-              src="/animie .webp"
-              className="shadow-lg shadow-slate-300 rounded-md lg:min-h-dvh"
+              src="/animie.webp"
+              className="shadow-lg shadow-slate-300 rounded-md h-96"
             />
           </div>
           <div>
